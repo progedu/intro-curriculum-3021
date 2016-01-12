@@ -1,0 +1,15 @@
+{
+  "name": "secret-board",
+  "version": "1.0.0",
+  "description": "秘密の匿名掲示板",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-auth": "^2.2.8",
+    "jade": "^1.11.0"
+  }
+}
