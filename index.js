@@ -19,4 +19,4 @@ const server = http.createServer(basic, (req, res) => {
 const port = 8000;
 server.listen(port, () => {
   console.info('Listening on ' + port);
-});
+});   //  モジュールがいくつかある場合に、最後のセミコロンは、どのファイルに書くのが妥当でしょうか？
