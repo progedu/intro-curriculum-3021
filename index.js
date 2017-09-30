@@ -8,7 +8,7 @@ const basic = auth.basic({
   file: './users.htpasswd'
 });
 
-const server = http.createServer(basic, (req, res) => {
+const sabasushi = http.createServer(basic, (req, res) => {
   router.route(req, res);
 }).on('error', (e) => {
   console.error('Server Error', e);
@@ -17,6 +17,6 @@ const server = http.createServer(basic, (req, res) => {
 });
 
 const port = 8000;
-server.listen(port, () => {
-  console.info('Listening on ' + port);
+sabasushi.listen(port, () => {
+  console.info('ポート番号 ' + port + ' 番で鯖寿司を起動しました');
 });
