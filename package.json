@@ -10,6 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "http-auth": "^3.2.3",
+<<<<<<< HEAD
+    "jade": "^1.11.0",
+=======
+>>>>>>> 1be89480f85c0420d91e672f336248aa00326cb5
     "pug": "^2.0.0-rc.4"
   }
 }
