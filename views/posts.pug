@@ -14,5 +14,7 @@ html(lang="jp")
         button(type="submit") 投稿
     h2 投稿一覧
     each content in contents
-      p #{content}
+      p 投稿者：#{content.user}  投稿時間：#{content.date} 
+        br
+        |#{content.body} 
       hr
