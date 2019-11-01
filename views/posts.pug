@@ -15,9 +15,6 @@ html(lang="jp")
 
     h2 投稿一覧
     each content, index in contents
-      p #{index+1}番目の投稿 <br>
-    each content in contents
-      p #{content}
+      p #{index+1}番目の投稿 <br> #{content}
       hr
-
-        
+      
