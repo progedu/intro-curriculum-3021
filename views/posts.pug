@@ -13,6 +13,7 @@ html(lang="jp")
       div
         button(type="submit") 投稿
     h2 投稿一覧
-    each content in contents
-      p #{content}
+    //- 投稿番号も表示する形に
+    each content, index in contents 
+      p [投稿番号：#{index +1}]<br>#{content} 
       hr
