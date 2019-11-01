@@ -12,7 +12,9 @@ html(lang="jp")
         textarea(name="content" cols=40 rows=4)
       div
         button(type="submit") 投稿
+
     h2 投稿一覧
-    each content in contents
-      p #{content}
+    each content, index in contents
+      p #{index+1}番目の投稿 <br> #{content}
       hr
+      
