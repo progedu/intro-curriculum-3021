@@ -1,4 +1,6 @@
 'use strict';
+//3章22節 認証された投稿の一覧表示機能
+
 const http = require('http');
 const auth = require('http-auth');
 const router = require('./lib/router');
